@@ -1,3 +1,17 @@
 body{
-    background-image: url("mybackground.jpg");
+    width: max-content;
+    height: max-content;
+    overflow: hidden;
+    border: solid black;
+    background: yellow;
+    padding-bottom: 20px;
+    animation-name: colorchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorchange{
+    0%{background-color: azure;}
+    30%{background-color: red;}
+    60%{background-color: blue;}
+    100%{background-color: violet;}
 }
