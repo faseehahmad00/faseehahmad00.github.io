@@ -28,6 +28,7 @@ h1{
     font-weight: bolder;
     font-style: italic;
     color: black;
+    width: 100%;
     font-size: xx-large;
     border:none;
 }
