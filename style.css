@@ -28,4 +28,6 @@ h1{
     font-weight: bolder;
     font-style: italic;
     color: black;
+    font-size: xx-large;
+    border:none;
 }
