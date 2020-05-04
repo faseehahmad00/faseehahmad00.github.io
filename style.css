@@ -21,6 +21,10 @@ body{
     80%{background-color: orange;}
     90%{background-color: orangered;}
     100%{background-color: cyan;}
+}
 
-
+h1{
+    font-family: "DejaVu Sans Mono",ariel,"Tibetan Machine Uni";
+    font-weight: bolder;
+    font-style: italic;
 }
