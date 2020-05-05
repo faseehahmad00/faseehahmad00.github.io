@@ -5,13 +5,14 @@ body{
     animation-iteration-count: infinite;
 }
 div.menu{
-    color: darkorange;
-    margin-top: 100px;
+    color: black;
+    margin-top: 70px;
     padding:10px 10px;
 }
 p{
     font-family:Arial, Helvetica, sans-serif;
     font-size: medium;
+    text-align: justify;
 }
 div.branch{
     color: white;
@@ -19,17 +20,21 @@ div.branch{
     padding: 10px 10px;
     margin:20px 10px;
     border: 0.5px solid black;
-    height :130px;
+    max-height: max-content;
     overflow: auto;
-    border-radius: 20px;
-    box-shadow: -3px 3px darkorange;
+    border-radius: 10px;
+    box-shadow: 5px -5px silver;
     background-color: black;
+    transition: all 0.5s;
 
-
+}
+div.branch:hover{
+    transform: scale(1.02);
+    box-shadow: none;
 }
 
 div.top{
-    color: darkorange;
+    color: black;
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -40,6 +45,7 @@ div.submenu{
 }
 #description{
     margin-top: -20px;
+    text-align: center;
 }
 div.line{
     border: 1px solid black;
@@ -50,17 +56,23 @@ div.line{
     margin-top: -15px;
 }
 a{
-
     color: green;
     font-size: small;
-
+}
+a:hover{
+    color: red;
 }
 h3{
     margin-top: -5px;
 }
 @keyframes colorchange{
-    0%{background-color: darkred;}
-    20%{background-color: grey;}
-    70%{background-color: darkgreen;}
-    100%{background-color: darkslateblue;}
+
+    0%{background-color: lightblue;}
+    10%{background-color: darkslategrey;}
+    20%{background-color: lightsalmon;}
+    35%{background-color: lightcyan;}
+    50%{background-color: lightgreen;}
+    65%{background-color: lightgoldenrodyellow;}
+    80%{background-color: lightcoral;}
+    100%{background-color: darkgoldenrod;}
 }
