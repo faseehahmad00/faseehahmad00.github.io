@@ -1,8 +1,9 @@
 body{
     /* background-color: white; */
-    animation-name: colorchange;
-    animation-duration: 100s;
-    animation-iteration-count: infinite;
+    /*animation-name: colorchange;*/
+    /*animation-duration: 100s;*/
+    /*animation-iteration-count: infinite;*/
+    background-color: white;
 }
 div.menu{
     color: black;
@@ -23,13 +24,13 @@ div.branch{
     max-height: max-content;
     overflow: auto;
     border-radius: 10px;
-    box-shadow: 5px -5px silver;
+    box-shadow: 5px -5px 2px silver;
     background-color: black;
     transition: all 0.5s;
 
 }
 div.branch:hover{
-    transform: scale(1.02);
+    transform: scale(1.01);
     box-shadow: none;
 }
 
@@ -75,4 +76,16 @@ h3{
     65%{background-color: lightgoldenrodyellow;}
     80%{background-color: lightcoral;}
     100%{background-color: darkgoldenrod;}
+}
+li{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:lightgray;
+    color: black;
+    display: inline;
+    margin:0px 5px;
+    font-weight: bold;
+    padding: 2px 2px;
+}
+ul{
+    padding-left: 0px;
 }
