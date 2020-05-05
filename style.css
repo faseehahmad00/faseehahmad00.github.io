@@ -55,7 +55,6 @@ div.submenu {
 div.line {
     border: 1px solid black;
     height: 0;
-    background-color: black;
     width: 100%;
     margin-top: -15px;
 }
