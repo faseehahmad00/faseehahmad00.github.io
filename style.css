@@ -22,7 +22,7 @@ div.branch {
     max-height: max-content;
     overflow: auto;
     border-radius: 10px;
-    box-shadow: 4px -4px 2px silver;
+    box-shadow: 4px -5px 2px silver;
     background-color: black;
     transition: all 0.4s;
 
