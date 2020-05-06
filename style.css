@@ -31,9 +31,6 @@ div.branch {
 div.branch:hover {
     transform: scale(1.01);
     box-shadow: none;
-    color: black;
-    background-color: white;
-    border: 1px solid black;
     border-radius: 5px;
 }
 
