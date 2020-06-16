@@ -5,7 +5,7 @@ body {
 
 div.menu {
     color: black;
-    margin-top: 70px;
+    margin-top: 50px;
     padding: 10px 10px;
 }
 
@@ -37,6 +37,7 @@ div.branch:hover {
 div.top {
     color: black;
     text-align: center;
+    padding-top: 30px;
 }
 
 div.submenu {
@@ -80,4 +81,3 @@ li {
     font-weight: bold;
     padding: 2px 2px;
 }
-
