@@ -25,12 +25,13 @@ div.menu {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
-    margin-left: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 div.branch {
     color: white;
     padding: 10px 10px;
-    margin: 5px;
+    margin: 7px;
     border: 1px solid black;
     max-height: max-content;
     overflow: auto;
