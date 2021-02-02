@@ -1,5 +1,5 @@
-.App{
-  background-color:  #282c34;
+.App {
+  background-color: #282c34;
   min-width: 300px;
   display: flex;
   flex-direction: column;
@@ -16,10 +16,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 .projects {
   margin-top: 20px;
   display: flex;
@@ -28,11 +24,12 @@
   margin-left: 2%;
   margin-right: 2%;
 }
+
 .branch {
   text-decoration: none;
   color: white;
   padding: 10px 10px;
-  margin: 10px;
+  margin: 10px 5px;
   border: 1px solid black;
   max-height: max-content;
   overflow: auto;
@@ -41,49 +38,26 @@
   background-color: black;
   transition: all 0.4s;
   text-align: left;
-  flex:1;
+  flex: 1;
   min-width: 220px;
-  max-width:220px;
+  max-width: 220px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-@media only screen and (max-width : 1070px){
-  .projects {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-  }
-  .branch {
-    text-decoration: none;
-    color: white;
-    padding: 10px 10px;
-    margin: 5px;
-    border: 1px solid black;
-    max-height: max-content;
-    overflow: auto;
-    border-radius: 5px;
-    box-shadow: -2px -2px 1px silver;
-    background-color: black;
-    transition: all 0.4s;
-    text-align: left;
-    flex:1;
-    min-width: 220px;
-    max-width:220px;
-  }
-}
-@media only screen and (max-width : 600px){
+
+@media only screen and (max-width: 600px) {
   .projects {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: stretch;
   }
-  .branch {  
+  .branch {
     text-decoration: none;
     color: white;
     padding: 10px 10px;
-    margin: 20px 10px;
+    margin: 10px 10px;
     border: 1px solid black;
     max-height: max-content;
     overflow: auto;
@@ -92,20 +66,19 @@
     background-color: black;
     transition: all 0.4s;
     text-align: left;
-    flex:1;
+    flex: 1;
     min-width: 220px;
     max-width: 88%;
-  } 
-
+  }
 }
 
-.details{
-margin-left: 2%;
-margin-right: 2%;
-color: white;
+.details {
+  margin-left: 2%;
+  margin-right: 2%;
+  color: white;
 }
 
-.Footer{
+.Footer {
   background-color: black;
   margin-bottom: none;
   height: 60px;
@@ -118,12 +91,13 @@ color: white;
   box-shadow: none;
 }
 
-ul {
+.branch ul, .details ul {
   padding-left: 0;
   display: flex;
   flex-flow: row wrap;
 }
-li {
+
+.branch li, .details li {
   background-color: lightgray;
   color: black;
   display: inline;
@@ -131,6 +105,7 @@ li {
   font-weight: bold;
   padding: 2px 2px;
 }
+
 .details a {
   color: whitesmoke;
   font-size: medium;

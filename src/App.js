@@ -17,14 +17,14 @@ function App() {
           <p style={{ marginTop: '0px' }}>(Software Developer)</p>
         </header>
         <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route exact path="/details/:id">
-          <Details />
-        </Route>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/details/:id">
+            <Details />
+          </Route>
         </Switch>
-        </div>
+      </div>
     </Router>
   );
 }
