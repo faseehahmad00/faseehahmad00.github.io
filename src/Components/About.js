@@ -14,10 +14,10 @@ class About extends Component {
     const email = this.props.data.email;
 
     return (
-      <section id="about" style={{minHeight:"100vh",display:"flex",justifyContent:"center",alignItems:"center"}}>
+      <section id="about" style={{minHeight:"110vh",display:"flex",justifyContent:"center",alignItems:"center"}}>
         <Fade duration={1000} >
           <div className="row">
-            <div className="three columns">
+            <div className="three columns" style={{display:"flex",justifyContent:"center"}}>
               <img
                 className="profile-pic"
                 src={profilepic}

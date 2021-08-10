@@ -174,7 +174,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #fe6928; }
+ul#nav li.current a { color: #ff8c00; }
 
 
 /* ------------------------------------------------------------------ */
@@ -1007,7 +1007,8 @@ footer .social-links li:first-child { margin-left: 0; }
 
 
 .social .btn:first-child{
-   margin-right: 30px;
+   margin-right: 0;
+   border-radius: 25px;
 }
 .social .btn{
    padding-left: 30px;
