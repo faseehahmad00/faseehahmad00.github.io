@@ -210,7 +210,7 @@
    header .social li { margin: 0 10px; }
 
     /* scrolldown link */
-   header .scrolldown { display: none; }
+   header .scrolldown { display: flex; }
 
 
    /* About Section
@@ -295,9 +295,19 @@
       margin-bottom: 30px;
       text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
    }  
-   #contact h1 span { display: block; }
+   #contact h1 span { display: none; }
+   #contact h1:before {
+      font-family: 'FontAwesome';
+      content: "\f0e0";
+      padding-right: 10px;
+      font-size: 72px;
+      line-height: 72px;
+      text-align: left;
+      float: left;
+      color: #ebeeee;
+   }   
    #contact .header-col { padding-top: 0; }
-   #contact .header-col h1:before { content: none;	}
+   /* #contact .header-col h1:before { content: none;	} */
    #contact .section-head p.lead { text-align: center;}
 
    /* form */
