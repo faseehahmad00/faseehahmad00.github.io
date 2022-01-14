@@ -281,8 +281,6 @@ ul#nav li.current a { color: #ff8c00; }
 /*----------------------------------------------*/
 
 .bars {
-	width: 95%;
-	float: left;
 	padding: 0;
 	text-align: left;
 }
@@ -292,20 +290,10 @@ ul#nav li.current a { color: #ff8c00; }
 }
 .bars li {
    position: relative;
-  	margin-bottom: 60px;
-  	background: #333;
-  	height: 42px;
-  	border-radius: 0px;
+  	margin-bottom: 20px;
+   color: black;
 }
-.bars li em {
-	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
-	text-transform: uppercase;
-   letter-spacing: 2px;
-	font-weight: normal;
-   position: relative;
-	top: -36px;
-}
+
 .bar-expand {
    position: absolute;
    left: 0;

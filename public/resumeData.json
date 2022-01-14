@@ -3,7 +3,7 @@
 "name":"FASEEH AHMAD",
 "description":"Software Developer",
 "image":"profilepic2.png",
-"bio":"I am a Final Year Computer Science Student aiming to become a profession full stack developer.",
+"bio":"A Final Year CS student aiming to become a professional full stack developer",
 "email": "faseehahmad00@gmail.com",
 "phone": "+92 324 4672725",
 "github":"https://github.com/faseehahmad00",
@@ -98,37 +98,29 @@
 ],
 "skills":[
     {
-    "name":"HTML",
-    "level":"90%"
+    "name":"HTML"
     },
     {
-    "name":"CSS",
-    "level":"90%"
+    "name":"CSS"
     },
     {
-    "name":"JavaScript",
-    "level":"90%"
+    "name":"JavaScript"
     },
     {
-    "name":"ReactJs",
-    "level":"80%"
+    "name":"ReactJs"
     },
         {
-    "name":"ReactNative",
-    "level":"70%"
+    "name":"ReactNative"
     },
 {
-    "name":"JAVA",
-    "level":"70%"
+    "name":"JAVA"
     },
 
     {
-    "name":"Python",
-    "level":"60%"
+    "name":"Python"
     },
     {
-    "name":"C/Cpp",
-    "level":"60%"
+    "name":"C/C++"
     }
 ]
 }
