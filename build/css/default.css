@@ -330,11 +330,6 @@ li p { }
    padding: 0;
    margin: 24px 0;
 }
-
-.targetlinks:hover{
-   transform: scale(1.01);
-   color:#ff8c00;
-}
 .stats-tabs li {
 	display: inline-block;
 	margin: 0 10px 18px 0;

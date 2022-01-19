@@ -30,7 +30,7 @@ class Resume extends Component {
     const work = this.props.data.work.map(function (work) {
       return (
         <div key={work.company}>
-          <a href={work.link} target="_blank" rel="noreferrer"><h3>{work.company}</h3></a>
+          <a href={work.link} target="_blank" rel="noreferrer" ><h3 className="targetlinks">{work.company}</h3></a>
           <p className="info">
             {work.title}
             <span>&bull;</span> <em className="date">{work.years}</em>

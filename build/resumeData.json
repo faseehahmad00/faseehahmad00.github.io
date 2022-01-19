@@ -92,19 +92,16 @@
     {
     "company":"Contacts Manager",
     "years":"2021",
-    "description":"Mongo, Express, React, Node",
+    "description":"MERN Stack",
     "link":"https://github.com/faseehahmad00/web-project"
-    },
-    {
-    "company":"ClassX",
-    "years":"2022-present",
-    "description":"Next.js, Prisma, Postgresql",
-    "link":"https://github.com/faseehahmad00/classx"
     }
 ],
 "skills":[
     {
-    "name":"HTML / CSS"
+    "name":"HTML"
+    },
+    {
+    "name":"CSS"
     },
     {
     "name":"JavaScript"
@@ -116,8 +113,9 @@
     "name":"ReactNative"
     },
 {
-    "name":"Java"
+    "name":"JAVA"
     },
+
     {
     "name":"Python"
     },
