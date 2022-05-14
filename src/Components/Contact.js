@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Fade, Slide } from "react-reveal";
+import { Fade} from "react-reveal";
 import "../App.css";
 
 class Contact extends Component {
@@ -39,7 +39,6 @@ class Contact extends Component {
                 </p>
               </div>
             </aside>
-          {/* </Slide> */}
         </div>
       </section>
     );

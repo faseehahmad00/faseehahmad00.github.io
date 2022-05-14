@@ -104,25 +104,22 @@
 ],
 "skills":[
     {
-    "name":"HTML / CSS"
+    "name":"HTML"
+    },
+    {
+    "name":"CSS"
     },
     {
     "name":"JavaScript"
     },
     {
+    "name":"SQL"
+    },
+    {
     "name":"ReactJs"
-    },
-        {
-    "name":"ReactNative"
-    },
-{
-    "name":"Java"
     },
     {
     "name":"Python"
-    },
-    {
-    "name":"C/C++"
     }
 ]
 }
