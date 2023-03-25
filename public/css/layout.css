@@ -288,6 +288,23 @@ ul#nav li.current a { color: #ff8c00; }
   	margin-top: 36px;
    list-style: none;
 }
+.skills {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+}
+
+.skills li{
+   margin: 10px;
+   padding: 5px 15px;
+   background: whitesmoke;
+   border-radius: 10px;
+}
+
+.skills li p{
+   margin: 0;
+}
+
 .bars li {
    position: relative;
   	margin-bottom: 20px;

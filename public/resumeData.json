@@ -1,126 +1,120 @@
 {
-"main": {
-"name":"FASEEH AHMAD",
-"description":"Software Developer",
-"image":"profilepic2.png",
-"bio":"A Final Year CS student aiming to become a professional full stack developer",
-"email": "faseehahmad00@gmail.com",
-"phone": "+92 324 4672725",
-"github":"https://github.com/faseehahmad00",
-"address":{
-    "street":"",
-    "city":"Lahore",
-    "state":"Pakistan",
-    "zip": ""
-},
-"website": "faseehahmad00.herokuapp.com",
-"resumedownload":"faseehahmad00.herokuapp.com",
-"social":[
-    {
-    "name":"facebook",
-    "url":"http://facebook.com/faseehahmad00",
-    "className":"fa fa-facebook"
+  "main": {
+    "name": "FASEEH AHMAD",
+    "description": "Software Engineer",
+    "image": "profilepic2.png",
+    "bio": "A software engineer having expertise in web development, keen to learn new technologies.",
+    "email": "faseehahmad00@gmail.com",
+    "phone": "+92 324 4672725",
+    "github": "https://github.com/faseehahmad00",
+    "address": {
+      "street": "",
+      "city": "Lahore",
+      "state": "Pakistan",
+      "zip": ""
     },
-    {
-    "name":"twitter",
-    "url":"http://twitter.com/faseehahmad00",
-    "className":"fa fa-twitter"
-    },
-    {
-    "name":"linkedin",
-    "url":"https://www.linkedin.com/in/faseeh-ahmad-b09a8b195",
-    "className":"fa fa-linkedin"
-    },
-    {
-    "name":"instagram",
-    "url":"http://instagram.com/faseehahmad00",
-    "className":"fa fa-instagram"
-    },
-    {
-    "name":"github",
-    "url":"https://github.com/faseehahmad00",
-    "className":"fa fa-github"
-    }
-]
-},
-"resume":{
-"education":[
-    {
-    "school":"Laurelbank School System",
-    "degree":"SSC",
-    "graduated":"2016",
-    "description":"Maths , Physics , Chemistry , Computer"
-    },
-    {
-    "school":"Punjab College of Information Technology",
-    "degree":"HSSC / ICS ",
-    "graduated":"2018",
-    "description":"Maths , Physics , Computer"
-    },
-    {
-    "school":"COMSATS",
-    "degree":"BSCS",
-    "graduated":"2022 (expected)",
-    "description":"Computer Science"
-    }
-],
-"work":[
-    {
-    "company":"Student Registration System",
-    "years":"2019",
-    "description":"Java , JavaFX , Sqlite",
-    "link":"https://github.com/faseehahmad00/Student-Registration"
-    },
-    {
-    "company":"Automated Traffic Signaling",
-    "years":"2021",
-    "description":"Python",
-    "link":"https://github.com/faseehahmad00/Automated-Traffic-Signaling"
-    },
-    {
-    "company":"ConnectX",
-    "years":"2020-Present",
-    "description":"ReactNative",
-    "link":"https://github.com/faseehahmad00/ConnectX"
-    },
-    {
-    "company":"Cross Platform Calculator App",
-    "years":"2020",
-    "description":"ReactNative",
-    "link":"https://github.com/faseehahmad00/RN_Calculator"
-    },
-    {
-    "company":"Contacts Manager",
-    "years":"2021",
-    "description":"Mongo, Express, React, Node",
-    "link":"https://github.com/faseehahmad00/web-project"
-    },
-    {
-    "company":"ClassX",
-    "years":"2022-present",
-    "description":"Next.js, Prisma, Postgresql",
-    "link":"https://github.com/faseehahmad00/classx"
-    }
-],
-"skills":[
-    {
-    "name":"HTML"
-    },
-    {
-    "name":"CSS"
-    },
-    {
-    "name":"JavaScript"
-    },
-    {
-    "name":"SQL"
-    },
-    {
-    "name":"ReactJs"
-    },
-    {
-    "name":"Python"
-    }
-]
-}
+    "website": "faseeh.dev",
+    "resumedownload": "faseeh.dev",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "http://facebook.com/faseehahmad00",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com/faseehahmad00",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/faseeh-ahmad-b09a8b195",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/faseehahmad00",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/faseehahmad00",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "education": [
+      {
+        "school": "Laurelbank School System",
+        "degree": "SSC",
+        "graduated": "2016",
+        "description": "Maths , Physics , Chemistry , Computer"
+      },
+      {
+        "school": "Punjab College of Information Technology",
+        "degree": "HSSC / ICS ",
+        "graduated": "2018",
+        "description": "Maths , Physics , Computer"
+      },
+      {
+        "school": "COMSATS",
+        "degree": "BSCS",
+        "graduated": "2022 (expected)",
+        "description": "Computer Science"
+      }
+    ],
+    "work": [
+      {
+        "company": "Automated Traffic Signaling",
+        "years": "2021",
+        "description": "Python",
+        "link": "https://github.com/faseehahmad00/Automated-Traffic-Signaling"
+      },
+      {
+        "company": "ConnectX",
+        "years": "2020",
+        "description": "ReactNative, Firebase",
+        "link": "https://github.com/faseehahmad00/ConnectX"
+      },
+      {
+        "company": "Contacts Manager",
+        "years": "2021",
+        "description": "Mongo, Express, React.js, Node",
+        "link": "https://github.com/faseehahmad00/web-project"
+      },
+      {
+        "company": "ClassX",
+        "years": "2022",
+        "description": "React.js, Prisma, Node, Postgresql",
+        "link": "https://github.com/faseehahmad00/classx"
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "JS/TS"
+      },
+      {
+        "name": "SQL"
+      },
+      {
+        "name": "ReactJs/NextJs"
+      },
+      {
+        "name": "PHP"
+      },
+      {
+        "name": "AWS"
+      },
+      {
+        "name": "SuiteCRM"
+      }
+    ]
+  }
 }
