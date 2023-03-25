@@ -60,7 +60,7 @@
       {
         "school": "COMSATS",
         "degree": "BSCS",
-        "graduated": "2022 (expected)",
+        "graduated": "2022",
         "description": "Computer Science"
       }
     ],
@@ -98,13 +98,22 @@
         "name": "CSS"
       },
       {
-        "name": "JS/TS"
+        "name": "JavaScript"
+      },
+      {
+        "name": "TypeScript"
       },
       {
         "name": "SQL"
       },
       {
-        "name": "ReactJs/NextJs"
+        "name": "Node.js"
+      },
+      {
+        "name": "React.js"
+      },
+      {
+        "name": "Next.js"
       },
       {
         "name": "PHP"
