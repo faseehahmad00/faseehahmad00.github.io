@@ -73,14 +73,16 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I've always been passionate about solving problems and building innovative solutions. My journey as a software engineer started during my school days when I developed a deep interest in coding, exploring various technologies, and understanding how software can create meaningful impact.
+              I’ve always been passionate about solving problems and building innovative solutions. My journey as a software engineer started during my school days when I developed a deep interest in coding, exploring various technologies, and understanding how software can create meaningful impact.
+            </p>
+            <p>
                Over the years, this curiosity has evolved into a commitment to crafting reliable, efficient, and user-friendly solutions.
             </p>
             <p>
               Today, I’m a software engineer at Rolustech, where I specialize in full-stack development and contribute to all stages of the software development lifecycle. From designing robust system architectures to implementing optimized backend systems and seamless user interfaces,
               </p>
               <p>
-               I’m dedicated to delivering high-quality solutions. I thrive on solving complex technical challenges, enhancing performance, and fostering collaboration within diverse teams to ensure successful project outcomes. Whether it's innovating with modern tools or refining processes for greater efficiency, I’m driven to push boundaries and make a difference through technology.
+               I’m dedicated to delivering high-quality solutions. I thrive on solving complex technical challenges, enhancing performance, and fostering collaboration within diverse teams to ensure successful project outcomes. Whether it is innovating with modern tools or refining processes for greater efficiency, I’m driven to push boundaries and make a difference through technology.
             </p>
           </div>
           </div>
