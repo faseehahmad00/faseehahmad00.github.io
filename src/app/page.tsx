@@ -218,7 +218,7 @@ function SocialLink({
   icon: React.ComponentType<{ className?: string }>
 }) {
   return (
-    <Link className="group -m-1 p-1" {...props}>
+    <Link className="group -m-1 p-1" {...props} target='_blank'>
       <Icon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
     </Link>
   )
@@ -273,13 +273,20 @@ function Resume() {
   let resume: Array<Role> = [
     {
       company: 'Rolustech',
-      title: 'Software Engineer',
+      title: 'Senior Software Engineer',
       logo: logort,
-      start: '2023',
+      start: '2025',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
       },
+    },
+    {
+      company: 'Rolustech',
+      title: 'Software Engineer',
+      logo: logort,
+      start: '2023',
+      end: '2025'
     },
     {
       company: 'Rolustech',
@@ -308,7 +315,7 @@ function Resume() {
           <Role key={roleIndex} role={role} />
         ))}
       </ol>
-      <Button href="https://drive.google.com/uc?export=download&id=1NQR51ZCuUVJuohCDcI77OlP8KoxMRBBq" variant="secondary" className="group mt-6 w-full">
+      <Button href="https://drive.google.com/uc?export=download&id=1HKW1rqpWA2KCbVviW_mwo_Z6evTVtV5L" variant="secondary" className="group mt-6 w-full">
         Download CV
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
