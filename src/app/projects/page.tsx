@@ -6,7 +6,7 @@ import { SimpleLayout } from '@/components/SimpleLayout'
 import logoAnimaginary from '@/images/logos/animaginary.svg'
 import logoCosmos from '@/images/logos/cosmos.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
+import oboLogo from '@/images/logos/obo.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
@@ -34,9 +34,16 @@ const projects = [
   {
     name: 'AKP',
     description:
-      'Facilitates Automated Checkins for patients',
+      'Facilitates Automated Checkins & Document Signing for patients',
     link: { href: 'https://alwayskeepprogressing.com/', label: 'alwayskeepprogressing.com' },
     logo: logoCosmos,
+  },
+  {
+    name: 'OBO',
+    description:
+      'Facilitates Lead Generation using dynamically embedded form for multiple partners & a Portal to track leads and their stats',
+    link: { href: 'https://onlinebusinessowner.com/', label: 'onlinebusinessowner.com' },
+    logo: oboLogo,
   },
 ]
 
