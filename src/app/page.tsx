@@ -15,7 +15,7 @@ import logort from '@/images/logos/airbnb.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
 import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 
-function  ContactMeForm(){
+function   ContactMeForm(){
   return (
     <div className="relative sm:rounded-xl mt-10 sm:p-12 border dark:border-zinc-700/40">
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
@@ -86,7 +86,7 @@ function  ContactMeForm(){
             </dl>
           </div>
         </div>
-        <form action="https://formsubmit.co/faseehahmad00@gmail.com" method="POST" className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
+        <form action="https://airform.io/contact@faseeh.dev" method="POST" className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
           <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
               <div>
