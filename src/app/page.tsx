@@ -315,7 +315,11 @@ function Resume() {
           <Role key={roleIndex} role={role} />
         ))}
       </ol>
+<<<<<<< HEAD
       <Button href="https://drive.google.com/uc?id=1X5jHlmbOud8w3ycDNSIMErvpRpVAojt7&export=download" variant="secondary" className="group mt-6 w-full">
+=======
+      <Button href="https://drive.google.com/uc?export=download&id=11qiyCG_OExyk92S5tnvEWpSNoo8_FYU5" variant="secondary" className="group mt-6 w-full">
+>>>>>>> 2c8b646d02f4dc5c4909c91c3b18e0f57fe6e273
         Download CV
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
