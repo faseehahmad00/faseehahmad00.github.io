@@ -315,7 +315,7 @@ function Resume() {
           <Role key={roleIndex} role={role} />
         ))}
       </ol>
-      <Button href="https://drive.google.com/uc?export=download&id=11qiyCG_OExyk92S5tnvEWpSNoo8_FYU5" variant="secondary" className="group mt-6 w-full">
+      <Button href="https://drive.google.com/uc?id=1X5jHlmbOud8w3ycDNSIMErvpRpVAojt7&export=download" variant="secondary" className="group mt-6 w-full">
         Download CV
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
@@ -327,13 +327,18 @@ export default async function Home() {
   return (
     <>
       <Container className="mt-9">
-        <div className="max-w-2xl">
+        <div className="max-3xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
             Software Engineer
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Faseeh Ahmad, A software engineer with expertise in full-stack development,
-            passionate about learning new technologies and delivering impactful solutions while excelling in project leadership and team collaboration.
+          AI-Focused Software Engineer with expertise in full-stack application 
+          development and a strong interest in building intelligent systems powered
+          by Large Language Models (LLMs), Retrieval-Augmented Generation (RAG),
+          and AI-driven automation. Passionate about combining modern software
+          engineering practices with AI technologies to develop scalable, user-centric
+          products that improve efficiency, enhance decision-making, and deliver
+          measurable business value
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
