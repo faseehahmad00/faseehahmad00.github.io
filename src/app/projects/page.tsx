@@ -8,8 +8,16 @@ import logoCosmos from '@/images/logos/cosmos.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
 import oboLogo from '@/images/logos/obo.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoCohere from '@/images/logos/cohere1.svg'
 
 const projects = [
+  {
+    name: 'Cohere',
+    description:
+      'Cooher.live Coaching Plaform',
+    link: { href: 'https://cohere.live/', label: 'cohere.live' },
+    logo: logoCohere,
+  },
   {
     name: 'MiTravel',
     description:
