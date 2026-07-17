@@ -9,47 +9,55 @@ import logoHelioStream from '@/images/logos/helio-stream.svg'
 import oboLogo from '@/images/logos/obo.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoCohere from '@/images/logos/cohere1.svg'
+import logoDakota from '@/images/logos/dakotaMP.png'
 
 const projects = [
   {
+    name: 'Dakota MP Extension',
+    description:
+      'Dakota MarketPlace Chrome extension with Salesforce SSO, streamlining secure access to marketplace tools directly from the browser.',
+    link: { href: 'https://chromewebstore.google.com/detail/dakota-marketplace/pkjcjmhoaajnghcgbkkdfgakcbdnpefj', label: 'chromewebstore.google.com' },
+    logo: logoDakota,
+  },
+  {
     name: 'Cohere',
     description:
-      'Cooher.live Coaching Plaform',
+      'Cohere.live coaching platform — led frontend development, resolved legacy bugs, and shipped new features based on user stories and business requirements.',
     link: { href: 'https://cohere.live/', label: 'cohere.live' },
     logo: logoCohere,
   },
   {
     name: 'MiTravel',
     description:
-      'Collaborative Trip Planning',
+      'Collaborative trip planning app built with React.js, NestJS, and PostgreSQL — delivered major features, legacy bug fixes, and performance and UI improvements.',
     link: { href: 'https://plan.mitravelapp.com/', label: 'plan.mitravelapp.com' },
     logo: logoPlanetaria,
   },
   {
     name: 'Donations Platform - Kerenhatzedaka',
     description:
-      'IVR & CRM for managing Donations. Integrates with cardknox, clover etc',
+      'Node.js-powered IVR & CRM platform automating donation collection, with Twilio IVR, calendar sync for appointment booking, and Cardknox/Clover integrations for multi-source donation tracking. Dockerized and deployed on AWS EC2.',
     link: { href: 'https://crm.kerenhatzedakah.org/', label: 'kerenhatzedakah.org' },
     logo: logoAnimaginary,
   },
   {
     name: 'Ecency',
     description:
-      'BlockChain Based Social Media',
+      'Blockchain-based social media platform — built new features and enhanced app functionality, resolved complex state-management issues, and integrated LinkedIn sharing to boost engagement.',
     link: { href: 'https://ecency.com/', label: 'ecency.com' },
     logo: logoHelioStream,
   },
   {
     name: 'AKP',
     description:
-      'Facilitates Automated Checkins & Document Signing for patients',
+      'React + TypeScript web app automating patient/therapist digital check-ins, document annotation and e-signing, and targeted pop-up notifications.',
     link: { href: 'https://alwayskeepprogressing.com/', label: 'alwayskeepprogressing.com' },
     logo: logoCosmos,
   },
   {
     name: 'OBO',
     description:
-      'Facilitates Lead Generation using dynamically embedded form for multiple partners & a Portal to track leads and their stats',
+      'Lead-generation platform (TypeScript, React, AWS Lambda) featuring a dynamic, embeddable form for multiple partners plus a portal for tracking leads and performance stats.',
     link: { href: 'https://onlinebusinessowner.com/', label: 'onlinebusinessowner.com' },
     logo: oboLogo,
   },
@@ -75,11 +83,11 @@ export default function Projects() {
   return (
     <SimpleLayout
       title={"Things I’ve built or have contributed to"}
-      intro="I’ve worked on tons of little projects over the years. Following are some of them."
+      intro="I’ve worked on tons of projects over the years. Following are some of them."
     >
       <ul
         role="list"
-        className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
+        className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2"
       >
         {projects.map((project) => (
           <Card as="li" key={project.name}>
